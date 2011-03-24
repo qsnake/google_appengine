@@ -33,7 +33,7 @@ if version_tuple == (2, 4):
   sys.stderr.write('Warning: Python 2.4 is not supported; this program may '
                    'break. Please use version 2.5 or greater.\n')
 
-DIR_PATH = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
+DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "share", "google_appengine"))
 SCRIPT_DIR = os.path.join(DIR_PATH, 'google', 'appengine', 'tools')
 
 EXTRA_PATHS = [
