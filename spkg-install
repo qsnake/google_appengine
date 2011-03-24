@@ -11,4 +11,5 @@ set -e
 
 cp dev_appserver.py "$SPKG_LOCAL"/bin/
 mkdir -p "$SPKG_LOCAL"/share/google_appengine
-cp -r google "$SPKG_LOCAL"/share/google_appengine
+cp -r google "$SPKG_LOCAL"/share/google_appengine/
+cp -r lib "$SPKG_LOCAL"/share/google_appengine/
